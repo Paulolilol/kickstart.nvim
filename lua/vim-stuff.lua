@@ -13,6 +13,7 @@ vim.g.have_nerd_font = true
 
 -- Make line numbers default
 vim.opt.number = true
+vim.opt.relativenumber = true
 -- You can also add relative line numbers, to help with jumping.
 --  Experiment for yourself to see if you like it!
 -- vim.opt.relativenumber = true
@@ -66,6 +67,12 @@ vim.opt.cursorline = true
 
 -- Minimal number of screen lines to keep above and below the cursor.
 vim.opt.scrolloff = 10
+
+-- set expandtab
+-- set tabstop=N      " Optional, if you want files with tabs to look the same too.
+-- set shiftwidth=N
+-- set softtabstop=-1 " Use value of shiftwidth
+-- set smarttab       " Always use shiftwidth
 
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`

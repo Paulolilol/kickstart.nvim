@@ -1,5 +1,13 @@
 # kickstart.nvim
 
+##TODO 
+
+* Gitsigns
+* neotree
+* snippet
+* autoclose
+* 
+
 ## Introduction
 
 A starting point for Neovim that is:
